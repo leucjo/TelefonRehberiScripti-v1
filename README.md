@@ -18,3 +18,5 @@ Scripte ait özellikler:
     Esnek, hızlı ve güvenilir tasarım
     Yönetim paneli için üyelik girişi
     Kayıtlar için, Ekleme,Güncelleme ve Silme işlemleri
+
+Paylaşıma copyright silinmediği sürece açıktır.
