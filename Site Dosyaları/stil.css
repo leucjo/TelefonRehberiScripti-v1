@@ -1,0 +1,137 @@
+
+
+input[type='text']
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #25384B;
+	padding: 2px;
+	margin-top: 2px;
+	background-color: #f1f5f8;
+	border-top: 1px solid #475A6D;
+	border-left: 1px solid #475A6D;
+	border-right: 1px solid #475A6D;
+	border-bottom: 1px solid #475A6D;
+}
+
+input[type='submit']
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #25384B;
+	background-color: #89E609;
+	border-bottom: 1px solid #008000;
+	border-right: 1px solid #008000;
+	border-top: 1px solid #B4EF52;
+	border-left: 1px solid #B4EF52;
+	padding: 2px;
+  margin-top: 2px;
+}
+
+input[type='submit']:hover
+{
+ background-color: #E9FFC1;
+	border: 1px solid #008000;
+}
+
+input[type='reset']
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #25384B;
+	background-color: #89E609;
+	border-bottom: 1px solid #008000;
+	border-right: 1px solid #008000;
+	border-top: 1px solid #B4EF52;
+	border-left: 1px solid #B4EF52;
+	padding: 2px;
+  margin-top: 2px;
+}
+
+input[type='reset']:hover
+{
+ background-color: #E9FFC1;
+	border: 1px solid #008000;
+}
+
+/*input.textbox:hover, input.textbox:focus, input.gonder:hover {
+  background-color: #E9FFC1;
+	border: 1px solid #008000;
+}
+*/
+
+
+#sayfa  
+{  
+    width:800px;  
+}  
+
+#ustAlan  
+
+{
+	float:left;
+    width: 800px;  
+	height:78px;
+	background-image:url(image/ustpix.gif);
+	background-repeat:repeat-x;
+
+}   
+#ustAlan2  
+
+{
+	float:left;
+    width: 500px;
+	margin-left:300px;
+
+
+}  
+
+   
+
+ #icerik  
+
+ {  
+float: right;  
+width: 750px;
+margin-top:10px;
+
+}  
+#altAlan  
+
+{  
+
+    width: 800px;
+	height:31px;
+	background-image:url(image/altpix.gif);
+	background-repeat:repeat-x;
+	text-align:center;
+	padding-top:5px;
+     clear: both;  
+
+ } 
+ a img, a.img { 
+border-style : none; } 
+a:link { 
+color : #b30016; 
+text-decoration : none; } 
+a:visited { 
+text-decoration : none; 
+color : #b30016; } 
+a:hover { 
+text-decoration : none; 
+color : #000000; } 
+a:active { 
+text-decoration : none; 
+color : #b30016; } 
+
+/*
+body{margin: 0; padding: 0; background: #fff}
+*{margin: 0; padding: 0; list-style-type: none; border: none}
+ */
+#ortala{width: 650px; padding: 8px; margin: 40px auto; background: #f1f1f1; border: 2px solid #ddd}
+ 
+.input{padding: 7px; width: 500px; margin-left: 80px; background: #fff; border: 1px solid #eee; font: 12px Tahoma}
+ 
+#sonuclar{width: 500px; padding: 7px; margin-left: 80px; margin-top: 10px; background: #fff; border: 1px solid #eee; font: 13px Tahoma}
+#sonuclar li{border-bottom: 1px solid #eee; padding: 5px; margin-bottom: 5px}
+
