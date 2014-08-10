@@ -1,0 +1,339 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- http://www.phpmyadmin.net
+-- 
+-- Anamakine: localhost
+-- Üretim Zamanı: 10 Ağustos 2014 saat 22:49:10
+-- Sunucu sürümü: 5.0.51
+-- PHP Sürümü: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Veritabanı: `rhbr`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Tablo yapısı: `il`
+-- 
+
+CREATE TABLE `il` (
+  `id` int(11) NOT NULL auto_increment,
+  `adi` varchar(50) character set utf8 collate utf8_turkish_ci default NULL,
+  `adi_seo` varchar(50) character set utf8 collate utf8_turkish_ci default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin5 AUTO_INCREMENT=154 ;
+
+-- 
+-- Tablo döküm verisi `il`
+-- 
+
+INSERT INTO `il` VALUES (15, 'BİLGİ İŞLEM YAZILIM BİRİMİ', NULL);
+INSERT INTO `il` VALUES (16, 'BİLGİ İŞLEM DONANIM BİRİMİ', NULL);
+INSERT INTO `il` VALUES (108, 'KAN TRANSİSYON ', NULL);
+INSERT INTO `il` VALUES (152, 'MR RAPOR ODASI', NULL);
+INSERT INTO `il` VALUES (20, 'TIP FAK. SEK.', NULL);
+INSERT INTO `il` VALUES (52, 'SATIN ALMA İHALE', NULL);
+INSERT INTO `il` VALUES (22, 'ARŞİV', NULL);
+INSERT INTO `il` VALUES (50, 'SANTRAL', NULL);
+INSERT INTO `il` VALUES (24, 'HASTANE MÜDÜRÜ', NULL);
+INSERT INTO `il` VALUES (25, 'HASTANE BAŞMÜDÜR', NULL);
+INSERT INTO `il` VALUES (26, 'BAŞHEMŞİRELİK', NULL);
+INSERT INTO `il` VALUES (27, 'KALİTE BİRİMİ', NULL);
+INSERT INTO `il` VALUES (28, 'HASTANE MÜD. YRD.', NULL);
+INSERT INTO `il` VALUES (29, 'FATURALAMA', NULL);
+INSERT INTO `il` VALUES (30, 'HASTA KABUL', NULL);
+INSERT INTO `il` VALUES (31, 'LAB. BİYOKİMYA', NULL);
+INSERT INTO `il` VALUES (32, 'LAB. MİKROBİYOLOJİ', NULL);
+INSERT INTO `il` VALUES (33, 'GÜVENLİK', NULL);
+INSERT INTO `il` VALUES (34, 'İSTATİSTİK', NULL);
+INSERT INTO `il` VALUES (148, 'KALORİFER', NULL);
+INSERT INTO `il` VALUES (36, 'PERSONEL BİRİMİ', NULL);
+INSERT INTO `il` VALUES (37, 'MUHASEBE', NULL);
+INSERT INTO `il` VALUES (38, 'HASTA HAKLARI', NULL);
+INSERT INTO `il` VALUES (39, 'SAĞLIK KURULU - RAPOR ODASI', NULL);
+INSERT INTO `il` VALUES (40, 'BİYOMEDİKAL', NULL);
+INSERT INTO `il` VALUES (41, 'ORGAN BAĞIŞI', NULL);
+INSERT INTO `il` VALUES (42, 'BAŞHEKİMLİK', NULL);
+INSERT INTO `il` VALUES (43, 'BAŞMÜDÜRLÜK', NULL);
+INSERT INTO `il` VALUES (44, 'BASIN YAYIN VE HALKLA İLİŞKİLER', NULL);
+INSERT INTO `il` VALUES (45, 'NÜKLEER TIP', NULL);
+INSERT INTO `il` VALUES (46, 'RADYOLOJI KABUL', NULL);
+INSERT INTO `il` VALUES (47, 'KANTİN', NULL);
+INSERT INTO `il` VALUES (51, 'SATIN ALMA', NULL);
+INSERT INTO `il` VALUES (53, 'MÜDÜR', NULL);
+INSERT INTO `il` VALUES (54, 'MÜDÜR YRD.', NULL);
+INSERT INTO `il` VALUES (55, 'ACİL TIP DOKTORU', NULL);
+INSERT INTO `il` VALUES (56, 'ANESTEZİYOLOJİ', NULL);
+INSERT INTO `il` VALUES (57, 'BEYİN CERRAHİ', NULL);
+INSERT INTO `il` VALUES (58, 'CİLDİYE', NULL);
+INSERT INTO `il` VALUES (59, 'ÇOCUK KARDİYOLOJİ', NULL);
+INSERT INTO `il` VALUES (60, 'ÇOCUK CERRAHİ', NULL);
+INSERT INTO `il` VALUES (61, 'DAHİLİYE', NULL);
+INSERT INTO `il` VALUES (62, 'DİYETİSYEN', NULL);
+INSERT INTO `il` VALUES (63, 'ENDOKRİN', NULL);
+INSERT INTO `il` VALUES (64, 'ENFEKSİYON', NULL);
+INSERT INTO `il` VALUES (65, 'FİZİK TEDAVİ', NULL);
+INSERT INTO `il` VALUES (66, 'GASTROLOJİ', NULL);
+INSERT INTO `il` VALUES (67, 'GENEL CERRAHİ', NULL);
+INSERT INTO `il` VALUES (68, 'GÖĞÜS CERRAHİ', NULL);
+INSERT INTO `il` VALUES (69, 'GÖĞÜS HASTALIKLARI', NULL);
+INSERT INTO `il` VALUES (70, 'GÖZ', NULL);
+INSERT INTO `il` VALUES (71, 'K.B.B.', NULL);
+INSERT INTO `il` VALUES (72, 'KADIN DOĞUM', NULL);
+INSERT INTO `il` VALUES (73, 'KALP DAMAR ', NULL);
+INSERT INTO `il` VALUES (74, 'KARDİYOLOJİ', NULL);
+INSERT INTO `il` VALUES (75, 'NÖROLOJİ ', NULL);
+INSERT INTO `il` VALUES (76, 'ORTOPEDİ', NULL);
+INSERT INTO `il` VALUES (77, 'PEDİATRİ', NULL);
+INSERT INTO `il` VALUES (78, 'PSİKİYATRİ', NULL);
+INSERT INTO `il` VALUES (79, 'PSİKOLOG', NULL);
+INSERT INTO `il` VALUES (80, 'ROMOTOLOJİ', NULL);
+INSERT INTO `il` VALUES (81, 'TIBBİ PATOLOJİ', NULL);
+INSERT INTO `il` VALUES (82, 'ÜROLOJİ', NULL);
+INSERT INTO `il` VALUES (84, 'FİZİK TEDAVİ ODASI', NULL);
+INSERT INTO `il` VALUES (85, 'RONTGEN KAYIT', NULL);
+INSERT INTO `il` VALUES (86, 'ULTRASON', NULL);
+INSERT INTO `il` VALUES (88, 'ENDOSKOPİ', NULL);
+INSERT INTO `il` VALUES (89, 'ASİSTAN DOKTOR ODASI', NULL);
+INSERT INTO `il` VALUES (90, 'ANJİYO', NULL);
+INSERT INTO `il` VALUES (91, 'KRONER YOĞUN BAKIM', NULL);
+INSERT INTO `il` VALUES (92, 'TEKNİK SERVİS', NULL);
+INSERT INTO `il` VALUES (93, 'YOĞUN BAKIM', NULL);
+INSERT INTO `il` VALUES (94, 'K.D.C. YOĞUN BAKIM', NULL);
+INSERT INTO `il` VALUES (95, 'MİKROBİYOLOJİ', NULL);
+INSERT INTO `il` VALUES (96, 'ACİL', NULL);
+INSERT INTO `il` VALUES (97, 'ACİL DOKTOR DESK ', NULL);
+INSERT INTO `il` VALUES (98, 'ACİL DOKTOR ODASI', NULL);
+INSERT INTO `il` VALUES (99, 'EMG', NULL);
+INSERT INTO `il` VALUES (101, 'SFT', NULL);
+INSERT INTO `il` VALUES (102, 'BRONKOSKOPİ', NULL);
+INSERT INTO `il` VALUES (103, 'UYKU POLİKİNİĞİ', NULL);
+INSERT INTO `il` VALUES (104, 'ECZANE', NULL);
+INSERT INTO `il` VALUES (105, 'EKG', NULL);
+INSERT INTO `il` VALUES (106, 'EFOR', NULL);
+INSERT INTO `il` VALUES (107, 'EKO', NULL);
+INSERT INTO `il` VALUES (109, 'AMELİYATHANE DOKTOR ', NULL);
+INSERT INTO `il` VALUES (110, 'AMELİYATHANE SEKRETERLİK', NULL);
+INSERT INTO `il` VALUES (111, 'NÖBETÇİ DOKTOR ODASI ', NULL);
+INSERT INTO `il` VALUES (112, 'KAN ALMA', NULL);
+INSERT INTO `il` VALUES (113, 'LABARATUAR BANKO', NULL);
+INSERT INTO `il` VALUES (114, 'RADYOLOJİ SEKRETER', NULL);
+INSERT INTO `il` VALUES (115, 'RADYOLOJİ TEKNİSYEN', NULL);
+INSERT INTO `il` VALUES (117, 'DİJİTAL RONTGEN', NULL);
+INSERT INTO `il` VALUES (118, 'TOMOGRAFİ', NULL);
+INSERT INTO `il` VALUES (119, 'STERİLİZASYON ', NULL);
+INSERT INTO `il` VALUES (120, 'AMELİYATHANE DR.ODA', NULL);
+INSERT INTO `il` VALUES (121, 'PATOLOJİ LABARATUARI', NULL);
+INSERT INTO `il` VALUES (123, 'ODYOMETRİ', NULL);
+INSERT INTO `il` VALUES (151, 'MR', NULL);
+INSERT INTO `il` VALUES (125, 'ŞOFÖRLER', NULL);
+INSERT INTO `il` VALUES (126, 'DÖNER SERMAYE SAYMANLIK', NULL);
+INSERT INTO `il` VALUES (127, 'VEZNE', NULL);
+INSERT INTO `il` VALUES (128, 'YAZI İŞLERİ', NULL);
+INSERT INTO `il` VALUES (135, 'BİYOMEDİKAL', NULL);
+INSERT INTO `il` VALUES (130, 'SAĞLIK KURULU RAPOR', NULL);
+INSERT INTO `il` VALUES (131, 'FATURALAMA', NULL);
+INSERT INTO `il` VALUES (132, 'DÖNER SERMAYE İŞL. MÜDÜR', NULL);
+INSERT INTO `il` VALUES (133, 'DÖNER SERMAYE', NULL);
+INSERT INTO `il` VALUES (134, 'TAŞINIR KAYIT', NULL);
+INSERT INTO `il` VALUES (136, 'ELEKTRİK MÜHENDİSİ', NULL);
+INSERT INTO `il` VALUES (137, 'ELEKTRİK TEKNİKERİ ', NULL);
+INSERT INTO `il` VALUES (138, 'ELEKTRİK TEKNİSYENİ', NULL);
+INSERT INTO `il` VALUES (139, 'MAKİNE TEKNİKERİ', NULL);
+INSERT INTO `il` VALUES (140, 'İKLİMLENDİRME VE SOĞ. SİS', NULL);
+INSERT INTO `il` VALUES (141, 'TEKNİK SERVİS SANTRAL', NULL);
+INSERT INTO `il` VALUES (142, 'BAKIM ONARIM', NULL);
+INSERT INTO `il` VALUES (143, 'GÜVENLİK İDARİ BİNA', NULL);
+INSERT INTO `il` VALUES (144, 'GÜVENLİK HASTANE ', NULL);
+INSERT INTO `il` VALUES (145, 'HASTA KABUL', NULL);
+INSERT INTO `il` VALUES (146, 'YATAKLI SERVİSLER DAHİLİYE', NULL);
+INSERT INTO `il` VALUES (147, 'YATAKLI SERVİSLER CERRAHİ', NULL);
+INSERT INTO `il` VALUES (149, 'DEKORASYON', NULL);
+INSERT INTO `il` VALUES (150, 'SU İŞLERİ', NULL);
+INSERT INTO `il` VALUES (153, 'RADYOLOJİ TEKNİSYEN ODASI', NULL);
+
+-- --------------------------------------------------------
+
+-- 
+-- Tablo yapısı: `telefon`
+-- 
+
+CREATE TABLE `telefon` (
+  `id` int(11) NOT NULL auto_increment,
+  `adi` varchar(50) character set utf8 collate utf8_turkish_ci default NULL,
+  `soyadi` varchar(50) character set utf8 collate utf8_turkish_ci default NULL,
+  `evtel` varchar(50) default NULL,
+  `ceptel` varchar(20) default NULL,
+  `adres` varchar(100) character set utf8 collate utf8_turkish_ci default NULL,
+  `il` varchar(10) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin5 AUTO_INCREMENT=220 ;
+
+-- 
+-- Tablo döküm verisi `telefon`
+-- 
+
+INSERT INTO `telefon` VALUES (184, 'YRD.DOÇ.DR MEHMET', 'ADAM', '', '3815', '', '70');
+INSERT INTO `telefon` VALUES (183, 'YRD.DOÇ.DR SERAY', 'ASLAN BAYHAN', '', '3726', '', '70');
+INSERT INTO `telefon` VALUES (182, 'PROF.DR. CANAN', 'GÜRDAL', '', '3713', '', '70');
+INSERT INTO `telefon` VALUES (36, 'MUHAMMED RAŞİT', 'BAKIR', 'mrasidbakir@gmail.com', '3610', '', '34');
+INSERT INTO `telefon` VALUES (186, 'PROF.DR. HASAN', 'EKİM', '', '3626', '', '73');
+INSERT INTO `telefon` VALUES (185, 'YRD.DOÇ.DR HASAN ALİ', 'BAYHAN', '', '3626', '', '70');
+INSERT INTO `telefon` VALUES (39, 'TAHSİN ', 'GENÇOL', 'tahsingencol@hotmail.com', '3152', '', '44');
+INSERT INTO `telefon` VALUES (40, 'EMRE', 'ÖLMEZ', '', '3600', '', '92');
+INSERT INTO `telefon` VALUES (41, 'ÖMER ', 'DEMİRBACAK', 'omer.demirbacak@hotmail.com', '3050', '', '50');
+INSERT INTO `telefon` VALUES (43, 'LEVENT', 'ŞİMŞEK', '', '3750', '', '43');
+INSERT INTO `telefon` VALUES (44, 'CENGİZ', 'SEYFİKLİ', '', '3030', '', '53');
+INSERT INTO `telefon` VALUES (45, 'FADİME ', 'BAŞTÜRK', '', '3760', '', '54');
+INSERT INTO `telefon` VALUES (46, 'SÜREYYA ', 'MUŞ', '', '3730', '', '26');
+INSERT INTO `telefon` VALUES (47, 'ANJİYO', 'SEKRETERLİK', '', '3034', '', '90');
+INSERT INTO `telefon` VALUES (48, 'ZEHRA', 'GÜVEN', '', '3125', '', '62');
+INSERT INTO `telefon` VALUES (49, 'BETÜL', 'PATAT', '', '3125', '', '62');
+INSERT INTO `telefon` VALUES (52, 'KDC Y.B', 'SEKRETERLİK', '', '3028', '', '94');
+INSERT INTO `telefon` VALUES (53, 'YOĞUN ', 'BAKIM', '', '3019', '', '91');
+INSERT INTO `telefon` VALUES (58, 'GÜLSEFA', 'GENÇAL', '', '3422', '', '110');
+INSERT INTO `telefon` VALUES (60, 'ESEF', 'BOLAT', '', '3420', '', '120');
+INSERT INTO `telefon` VALUES (61, 'SÜREYYA ', 'ÖZTÜRK', '', '3726', '', '56');
+INSERT INTO `telefon` VALUES (62, 'ALAADDİN ', 'AKTAŞ', '', '3677', '', '22');
+INSERT INTO `telefon` VALUES (63, 'ASİSTAN', 'DR ODASI', '', '3202 - 3302', '', '89');
+INSERT INTO `telefon` VALUES (68, 'İHSAN ', 'KARATAŞ', '', '3603', '', '150');
+INSERT INTO `telefon` VALUES (116, 'BİYOKİMYA', 'LAB.', '', '3801-3802-3803', '', '31');
+INSERT INTO `telefon` VALUES (66, 'SÜREYYA ', 'ÖZTÜRK', '', '3420', '', '120');
+INSERT INTO `telefon` VALUES (67, 'GÖKHAN', 'KILIÇ', '', '3603', '', '148');
+INSERT INTO `telefon` VALUES (69, 'MUSTAFA', 'BOZLAK', '', '3603', '', '149');
+INSERT INTO `telefon` VALUES (70, 'CİLDİYE ', 'POLİKİLİNİK', '', '3118', '', '58');
+INSERT INTO `telefon` VALUES (71, 'BEYİN CERRAHİ POLİKLİNİK', '', '', '3671', '', '57');
+INSERT INTO `telefon` VALUES (72, 'ABDULLAH ', 'DURUSOY ', '', '3602', '', '40');
+INSERT INTO `telefon` VALUES (73, 'ALİ', 'KARAKAYA', '', '3602', '', '40');
+INSERT INTO `telefon` VALUES (74, 'ÇOCUK CERRAHİ', 'POLİKİLİNİK', '', '3634', '', '60');
+INSERT INTO `telefon` VALUES (75, 'ÇOCUK KARDİYOLOJİ', 'POLİKİLİNİK', '', '3663', '', '59');
+INSERT INTO `telefon` VALUES (76, 'DAHİLİYE ', 'POLİKİLİNİK 1', '', '3129', '', '61');
+INSERT INTO `telefon` VALUES (77, 'DAHİLİYE', 'POLİKİLİNİK 2', '', '3622', '', '61');
+INSERT INTO `telefon` VALUES (78, 'DİJİTAL RONTGEN', 'DESK', '', '3536', '', '117');
+INSERT INTO `telefon` VALUES (79, 'RONTGEN', 'ODASI', '', '3530', '', '117');
+INSERT INTO `telefon` VALUES (80, 'SERDAR', 'DURMAN', '', '3746', '', '133');
+INSERT INTO `telefon` VALUES (81, 'SUNA', 'ŞİMŞEK', '', '3745', '', '132');
+INSERT INTO `telefon` VALUES (82, 'SERDAR ', 'DURMAN', '', '3746', '', '126');
+INSERT INTO `telefon` VALUES (83, 'TUNCAY', 'PAŞAOĞLU', '', '3680', '', '104');
+INSERT INTO `telefon` VALUES (84, 'ESRA', 'KÜÇÜKŞAHİN', '', '3680', '', '104');
+INSERT INTO `telefon` VALUES (85, 'EFOR', 'ODASI', '', '3021', '', '106');
+INSERT INTO `telefon` VALUES (86, 'EKG', 'ODASI', '', '3124', '', '105');
+INSERT INTO `telefon` VALUES (87, 'EKO', 'ODASI', '', '3024', '', '107');
+INSERT INTO `telefon` VALUES (88, 'EMG ', 'ODASI', '', '3132', '', '99');
+INSERT INTO `telefon` VALUES (89, 'ENDOSKOPİ ', 'ODASI', '', '3111-3112', '', '88');
+INSERT INTO `telefon` VALUES (90, 'ENDOKRİN', 'POLİKİLİNİK', '', '3121', '', '63');
+INSERT INTO `telefon` VALUES (91, 'ENFEKSİYON', 'POLİKİLİNİK', '', '3133', '', '64');
+INSERT INTO `telefon` VALUES (92, 'FATURALANDIRMA', '', '', '3684', '', '29');
+INSERT INTO `telefon` VALUES (93, 'FİZİK TEDAVİ', 'POLİKİLİNİK', '', '3639', '', '65');
+INSERT INTO `telefon` VALUES (94, 'FİZİK TEDAVİ', 'ÜNİTESİ', '', '3688', '', '84');
+INSERT INTO `telefon` VALUES (95, 'GASTROLOJİ', 'POLİKİLİNİK', '', '3128', '', '66');
+INSERT INTO `telefon` VALUES (96, 'GENEL CERRAHİ', 'POLİKİLİNİK', '', '3134', '', '67');
+INSERT INTO `telefon` VALUES (97, 'GÖĞÜS CERRAHİ', 'POLİKİLİNİK', '', '3126', '', '68');
+INSERT INTO `telefon` VALUES (98, 'GÖĞÜS HASTALIKLARI', 'P', '', '3127', '', '69');
+INSERT INTO `telefon` VALUES (99, 'GÖZ', 'POLİKİLİNİK', '', '3673', '', '70');
+INSERT INTO `telefon` VALUES (100, 'GÜVENLİK HASTANE ', '', '', '3000', '', '144');
+INSERT INTO `telefon` VALUES (101, 'GÜVENLİK İDARİ BİNA', '', '', '3001', '', '143');
+INSERT INTO `telefon` VALUES (102, 'HASTA KABUL', '', '', '3142', '', '30');
+INSERT INTO `telefon` VALUES (103, 'MESUT ', 'ŞAHİN', '', '3602', '', '140');
+INSERT INTO `telefon` VALUES (105, 'K.B.B.', 'POLİKİLİNİK 1', '', '3119', '', '71');
+INSERT INTO `telefon` VALUES (106, 'K.B.B.', 'POLİKİLİNİK 2', '', '3120', '', '71');
+INSERT INTO `telefon` VALUES (107, 'KADIN DOĞUM', 'POLİKİLİNİK 2', '', '3135', '', '72');
+INSERT INTO `telefon` VALUES (108, 'KADIN DOĞUM', 'POLİKİLİNİK 1', '', '3137', '', '72');
+INSERT INTO `telefon` VALUES (109, 'KALİTE BİRİMİ', '', '', '3760', '', '27');
+INSERT INTO `telefon` VALUES (110, 'KALP DAMAR ', 'POLİKİLİNİK', '', '3130', '', '73');
+INSERT INTO `telefon` VALUES (111, 'KAN ALMA', '', '', '3520', '', '112');
+INSERT INTO `telefon` VALUES (112, 'KAN TRANSİSYON ', '', '', '3025', '', '108');
+INSERT INTO `telefon` VALUES (113, 'KANTİM', '', '', '3143', '', '47');
+INSERT INTO `telefon` VALUES (114, 'KARDİYOLOJİ', 'POLİKİLİNİK 1', '', '3012', '', '74');
+INSERT INTO `telefon` VALUES (115, 'KARDİYOLOJİ', 'POLİKİLİNİK 2', '', '3013', '', '74');
+INSERT INTO `telefon` VALUES (117, 'MİKROBİYOLOJİ', '', '', '3810-3811', '', '32');
+INSERT INTO `telefon` VALUES (118, 'NÖROLOJİ ', 'POLİKİLİNİK 2', '', '3681', '', '75');
+INSERT INTO `telefon` VALUES (119, 'NÖROLOJİ ', 'POLİKİLİNİK 1', '', '3132', '', '75');
+INSERT INTO `telefon` VALUES (120, 'NÜKLEER TIP', '', '', '3541', '', '45');
+INSERT INTO `telefon` VALUES (121, 'ODYOMETRİ', '', '', '3640', '', '123');
+INSERT INTO `telefon` VALUES (122, 'ORTOPEDİ', 'POLİKİLİNİK 1', '', '3027', '', '76');
+INSERT INTO `telefon` VALUES (123, 'ORTOPEDİ', 'POLİKİLİNİK 2', '', '3040', '', '76');
+INSERT INTO `telefon` VALUES (124, 'PATOLOJİ LABARATUARI', '', '', '3723', '', '121');
+INSERT INTO `telefon` VALUES (125, 'PEDİYATRİ', 'POLİKİLİNİK', '', '3665', '', '77');
+INSERT INTO `telefon` VALUES (126, 'PSİKİYATRİ', 'POLİKİLİNİK', '', '3813', '', '78');
+INSERT INTO `telefon` VALUES (127, 'PSİKOLOG', 'POLİKİLİNİK', '', '----', '', '79');
+INSERT INTO `telefon` VALUES (128, 'RAPOR ODASI', '', '', '3140', '', '39');
+INSERT INTO `telefon` VALUES (129, 'SATIN ALMA', '', '', '3746', '', '51');
+INSERT INTO `telefon` VALUES (130, 'SATIN ALMA İHALE', '', '', '3637', '', '52');
+INSERT INTO `telefon` VALUES (131, 'SFT ', 'ODASI', '', '3011', '', '101');
+INSERT INTO `telefon` VALUES (132, 'STERİLİZASYON ', '', '', '3550', '', '119');
+INSERT INTO `telefon` VALUES (133, 'ŞOFÖRLER', '', '', '3718', '', '125');
+INSERT INTO `telefon` VALUES (134, 'TAŞINIR KAYIT', '', '', '3642', '', '134');
+INSERT INTO `telefon` VALUES (135, 'DAVUT', 'ERSOY', '', '3656', '', '20');
+INSERT INTO `telefon` VALUES (136, 'TOMOGRAFİ', '', '', '3510', '', '118');
+INSERT INTO `telefon` VALUES (137, 'ULTRASON', '', '', '3542', '', '86');
+INSERT INTO `telefon` VALUES (138, 'ÜROLOJİ', 'POLİKİLİNİK', '', '3123', '', '82');
+INSERT INTO `telefon` VALUES (139, 'UYKU POLİKİNİĞİ', '', '', '3116', '', '103');
+INSERT INTO `telefon` VALUES (140, 'LÜTFÜ', 'ERKEKLİ', '', '3045', '', '127');
+INSERT INTO `telefon` VALUES (141, 'SERVİS', 'CERRAHİ', '', '3200', '', '147');
+INSERT INTO `telefon` VALUES (142, 'DAHİLİYE ', 'SERVİS', '', '3351', '', '146');
+INSERT INTO `telefon` VALUES (143, 'YAZI İŞLERİ', '', '', '3641', '', '128');
+INSERT INTO `telefon` VALUES (144, 'PEDİATRİ', 'POLİKİLİNİK', '', '3675', '', '77');
+INSERT INTO `telefon` VALUES (145, 'RAMAZAN', 'PINARBAŞI', '', '3684', '', '29');
+INSERT INTO `telefon` VALUES (146, 'PROF.DR. SELDA', 'SEÇKİN', '', '3621', '', '81');
+INSERT INTO `telefon` VALUES (147, 'YRD.DOÇ.DR EMİNE', 'ÇÖLGEÇEN', '', '3649', '', '58');
+INSERT INTO `telefon` VALUES (148, 'YRD.DOÇ.DR KURŞAT ', 'ZENGİN', '', '3720', '', '82');
+INSERT INTO `telefon` VALUES (149, 'YRD.DOÇ.DR SEBAHATTİN ', 'ALBAYRAK', '', '3662', '', '82');
+INSERT INTO `telefon` VALUES (150, 'YRD.DOÇ.DR SERHAT', 'TANIK', '', '3720', '', '82');
+INSERT INTO `telefon` VALUES (151, 'YRD.DOÇ.DR ESEF', 'BOLAT', '', '3724', '', '56');
+INSERT INTO `telefon` VALUES (152, 'YRD.DOÇ.DR SÜREYYA', 'ÖZTÜRK', '', '3633', '', '56');
+INSERT INTO `telefon` VALUES (153, 'PROF.DR. NEZİHA', 'YILMAZ', '', '3717', '', '64');
+INSERT INTO `telefon` VALUES (154, 'PROF.DR. AYŞE', 'ERBAY', '', '3737', '', '64');
+INSERT INTO `telefon` VALUES (155, 'YRD.DOÇ.DR ÇİĞDEM', 'KADER', '', '3632', '', '64');
+INSERT INTO `telefon` VALUES (156, 'PROF.DR. FARUK ÖNDER', 'AYTEKİN', '', '3658', '', '67');
+INSERT INTO `telefon` VALUES (157, 'YRD.DOÇ.DR ERGİN', 'ASLAN', '', '3722', '', '67');
+INSERT INTO `telefon` VALUES (158, 'YRD.DOÇ.DR KASIM', 'ÇAĞLAYAN', '', '3722', '', '67');
+INSERT INTO `telefon` VALUES (159, 'YRD.DOÇ.DR MESUT', 'SİPAHİ', '', '3724', '', '67');
+INSERT INTO `telefon` VALUES (160, 'YRD.DOÇ.DR HASAN', 'BÖREKÇİ', '', '3728', '', '67');
+INSERT INTO `telefon` VALUES (161, 'PROF.DR. YAPRAK', 'ÜSTÜN', '', '3683', '', '72');
+INSERT INTO `telefon` VALUES (162, 'YRD.DOÇ.DR EMEL', 'KIYAK ÇAĞLAYAN', '', '3631', '', '72');
+INSERT INTO `telefon` VALUES (163, 'YRD.DOÇ.DR MUSTAFA', 'KARA', '', '3714', '', '72');
+INSERT INTO `telefon` VALUES (164, 'YRD.DOÇ.DR LEVENT', 'SEÇKİN', '', '3715', '', '72');
+INSERT INTO `telefon` VALUES (165, 'YRD.DOÇ.DR NAGEHAN', 'SARI', '', '3631', '', '72');
+INSERT INTO `telefon` VALUES (166, 'YRD.DOÇ.DR YAVUZ SELİM', 'İNTEPE', '', '3710', '', '69');
+INSERT INTO `telefon` VALUES (167, 'YRD.DOÇ.DR BAYRAM', 'METİN', '', '3710', '', '68');
+INSERT INTO `telefon` VALUES (168, 'ALİ', 'ALP', '', '3603', '', '141');
+INSERT INTO `telefon` VALUES (169, 'YRD.DOÇ.DR ZELİHA', 'KAPUSUZ', '', '3629', '', '71');
+INSERT INTO `telefon` VALUES (170, 'YRD.DOÇ.DR MAHMUT', 'ÖZKIRIŞ', '', '3653', '', '71');
+INSERT INTO `telefon` VALUES (171, 'YRD.DOÇ.DR KAMURAN', 'SARI', '', '3715', '', '71');
+INSERT INTO `telefon` VALUES (172, 'YRD.DOÇ.DR ASUMAN', 'ÇELİKBİLEK', '', '3661', '', '75');
+INSERT INTO `telefon` VALUES (173, 'YRD.DOÇ.DR NERMİN', 'TANIK', '', '3628', '', '75');
+INSERT INTO `telefon` VALUES (174, 'YRD.DOÇ.DR HAKAN', 'AK', '', '3628', '', '57');
+INSERT INTO `telefon` VALUES (175, 'YRD.DOÇ.DR TUGAY', 'ATALAY', '', '3643', '', '57');
+INSERT INTO `telefon` VALUES (176, 'YRD.DOÇ.DR ELİF', 'BÖREKÇİ', '', '3728', '', '61');
+INSERT INTO `telefon` VALUES (177, 'YRD.DOÇ.DR ZEYNEP TUBA', 'ÖZDEMİR', '', '3068', '', '61');
+INSERT INTO `telefon` VALUES (187, 'YRD.DOÇ.DR YUNUS ', 'KESERYILMAZ', '', '3662', '', '73');
+INSERT INTO `telefon` VALUES (188, 'PROF.DR. ALİ RIZA', 'ERBAY', '', '3738', '', '74');
+INSERT INTO `telefon` VALUES (189, 'YRD.DOÇ.DR SAVAŞ', 'SARIKAYA', '', '3669', '', '74');
+INSERT INTO `telefon` VALUES (190, 'YRD.DOÇ.DR HÜSEYİN', 'EDE', '', '3715', '', '74');
+INSERT INTO `telefon` VALUES (191, 'YRD.DOÇ.DR MURAT', 'KORKMAZ', '', '3710', '', '76');
+INSERT INTO `telefon` VALUES (192, 'YRD.DOÇ.DR FATİH', 'KARAASLAN', '', '3724', '', '76');
+INSERT INTO `telefon` VALUES (193, 'YRD.DOÇ.DR ÖZLEM', 'BALBALOĞLU', '', '3632', '', '65');
+INSERT INTO `telefon` VALUES (194, 'YRD.DOÇ.DR MEHMET', 'UÇAR', '', '3722', '', '65');
+INSERT INTO `telefon` VALUES (195, 'PROF.DR. ALİ MURAT', 'SUHER', '', '3713', '', '63');
+INSERT INTO `telefon` VALUES (196, 'YRD.DOÇ.DR ALİ İRFAN', 'GÜL', '', '3728', '', '78');
+INSERT INTO `telefon` VALUES (198, 'MUHAMMET ÇAĞRI', 'TOPAKTAŞ', '', '3641', '', '36');
+INSERT INTO `telefon` VALUES (202, 'SAMET', 'ULUTÜRK', '', '3610', '', '15');
+INSERT INTO `telefon` VALUES (199, 'YILDIRIM', 'ÜNLÜ', '', '3641', '', '128');
+INSERT INTO `telefon` VALUES (201, 'BAHRİ', 'GÜÇLÜ', '', '3641', '', '128');
+INSERT INTO `telefon` VALUES (204, 'MEHMET', 'ÖZKAN', '', '3680', '', '104');
+INSERT INTO `telefon` VALUES (205, 'KÜRŞAT', 'ÇALIŞKAN', '', '3612', '', '15');
+INSERT INTO `telefon` VALUES (218, 'MUHAMMED RAŞİT', 'EYİBİL', '', '3603', '', '92');
+INSERT INTO `telefon` VALUES (207, 'İBRAHİM', 'BAYRAKTAR', '', '3610', '', '15');
+INSERT INTO `telefon` VALUES (208, 'DUDU', 'KESKİN', '', '3124', '', '79');
+INSERT INTO `telefon` VALUES (209, 'YRD.DOÇ.DR SADİYE', 'YOLCU', '', '3015', '', '98');
+INSERT INTO `telefon` VALUES (210, 'YRD.DOÇ.DR GANİYA ', 'EDE', '', '3665', '', '77');
+INSERT INTO `telefon` VALUES (211, 'YRD.DOÇ.DR ESRA', 'AKYÜZ ÖZKAN', '', '', '', '77');
+INSERT INTO `telefon` VALUES (212, 'YRD.DOÇ.DR MEHMET', 'ÇELİKBİLEK', '', '3662', '', '66');
+INSERT INTO `telefon` VALUES (213, 'DOÇ.DR. HAŞİM', 'HÜSREVŞAHI', '', '3645', '', '59');
+INSERT INTO `telefon` VALUES (214, 'OSMAN', 'GÜLTEPE', '', '3612', '', '16');
+INSERT INTO `telefon` VALUES (215, 'ALİ', 'ŞAHİNGÖZ', '', '3612', '', '16');
+INSERT INTO `telefon` VALUES (219, 'RIZA', 'ÇAĞLIOĞLU', '', '3022', '', '96');
