@@ -19,4 +19,4 @@ Scripte ait özellikler:
     Yönetim paneli için üyelik girişi
     Kayıtlar için, Ekleme,Güncelleme ve Silme işlemleri
 
-Paylaşıma copyright silinmediği sürece açıktır.
+License: GNU General Public License version 2.0 (GPLv2)
